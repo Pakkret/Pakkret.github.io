@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+     font-family: 'Bebas Neue', cursive;
+     background-color: rgb(221, 143, 69);
+   }
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    font-size: 3vw;
+    background-color: black;
+}
+.header a{
+    
+    padding: 1vw;
+    margin-right: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+.resume-box{
+    width: 50rem;
+    height: 62.5rem;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.box-outer{
+    padding: 1.875rem;
+}
+
+.box-1{
+    background-color: rgb(0, 0, 7);
+    width: 35%;
+    float: left;
+    height: 62.5rem;
+}
+
+.box-2{
+    width: 80%;
+    float: left;
+    padding: 1.25rem;
+    font-family: sans-serif;
+}
+
+
+.aboutme{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-left: 0.625rem;  
+}
+
+
+.about{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.skill{
+    font-family: sans-serif;
+    
+   
+}
+
+#progress {
+    background-color:rgb(105, 103, 103) ;
+    border-radius: 0.813rem;
+    height: 0.5rem;
+    width: 70%;
+    padding: 0.188rem;
+}
+#progress:after {
+    content:'';
+    display: block;
+    background-color:rgb(163, 58, 163) ;
+    border-radius: 0.563rem;
+    height: 0.5rem;
+    width: 40%;
+}
+
+#progress1 {
+    background-color:rgb(105, 103, 103) ;
+    border-radius: 0.813rem;
+    height: 0.5rem;
+    width: 70%;
+    padding: 0.188rem;
+}
+#progress1:after {
+    content:'';
+    display: block;
+    background-color:rgb(163, 58, 163) ;
+    border-radius: 0.563rem;
+    height: 0.5rem;
+    width: 80%;
+}
+
+#progress3 {
+    background-color:rgb(105, 103, 103) ;
+    border-radius: 0.813rem;
+    height: 0.5rem;
+    width: 70%;
+    padding: 0.188rem;
+}
+#progress3:after {
+    content:'';
+    display: block;
+    background-color:rgb(163, 58, 163) ;
+    border-radius: 0.563rem;
+    height: 0.5rem;
+    width: 50%;
+}
+
+.contact{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 0.625rem;
+
+}
+
+.mail{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem; 
+}
+.intro{text-align: center;}
+.intro h1{
+    font-size: 8vw;
+    font-weight: bold;
+    color: black;
+
+}
+.hr{
+    height: 0.313rem;
+    border:none;
+    background-color: black ;
+    margin: -2.813rem -6.25rem;
+    
+}
+.intro-p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1.95vw;
+    margin-top: 4%!important;
+}
+
+.head1{
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-left: 34.375rem;
+
+}
+.para-1{
+    font-family: sans-serif;
+    font-size: 1.375rem;
+    margin: 0.313rem 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 34.375rem;
+    
+}
+.para-2{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1.25rem;
+    margin-left: 36.25rem;
+}
+
+.para-3{
+    font-family: sans-serif;
+    font-size: 1.375rem;
+    margin: 0.313rem 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 34.375rem;
+}
+
+.para-4{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1.25rem;
+    margin-left: 36.25rem;
+}
+
+.head2{
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-left: 34.375rem;
+ 
+}
+.para-5{
+    font-family: sans-serif;
+    font-size: 1.375rem;
+    margin: 0.313rem 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 34.375rem;
+}
+.para-6{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1.25rem;
+    margin-left: 36.25rem;
+}
+.para-7{
+    font-family: sans-serif;
+    font-size: 1.375rem;
+    margin: 0.313rem 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 34.375rem;
+}
+.para-8{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top:0rem;
+    margin-bottom: 1.25rem;
+    margin-left: 36.25rem;
+}
+.para-9{
+    font-family: sans-serif;
+    font-size: 1.375rem;
+    margin: 0.313rem 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 34.375rem;
+}
+.para-10{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top:0rem;
+    margin-bottom: 1.25rem;
+    margin-left: 36.25rem;
+}
+.para-11{
+    font-family: sans-serif;
+    font-size: 1.375rem;
+    margin: 0.313rem 0.625rem;
+    margin-top: 0.625rem;
+    margin-left: 34.375rem;
+}
+.para-12{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top:0rem;
+    margin-bottom: 1.25rem;
+    margin-left: 36.25rem;
+}
+
+.head3{
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-left: 34.375rem;
+ 
+}
+
+.hobbies{
+    margin-left: 47.5rem;
+
+}
